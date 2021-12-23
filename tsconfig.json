@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["app/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
