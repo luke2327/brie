@@ -23,4 +23,5 @@
 - 전설적인 상품인 "Sulfuras"는 판매할 필요도 없고, 품질이 저하될 필요도 없습니다. 또한 전설적인 상품이므로 "Quality" 값은 80으로 설정됩니다.
 - "Backstage passes" 상품은 "Aged Brie"처럼 날이 지날수록 "Quality"가 증가됩니다. "SellIn" 값에 따라, 10일 이하일 때는 2, 5일 이하일 때는 3씩 증가하지만, 판매 기한이 지나면 "Quality"는 0이 됩니다.
 
+## TODO
 레거시하게 작성되어 있는 updateQuality 함수에서 if를 제거해보세요.
